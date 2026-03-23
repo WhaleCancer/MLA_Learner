@@ -1,0 +1,9 @@
+correct-answer.mp3
+  Mixkit — "Correct answer tone" (sfx id 2870)
+  License: https://mixkit.co/license/#sfxFree (Mixkit Sound Effects Free License)
+  Source: assets.mixkit.co/active_storage/sfx/2870/2870-preview.mp3
+
+wrong-answer.mp3
+  Mixkit — "Wrong answer fail notification" (sfx id 946)
+  License: https://mixkit.co/license/#sfxFree (Mixkit Sound Effects Free License)
+  Source: assets.mixkit.co/active_storage/sfx/946/946-preview.mp3

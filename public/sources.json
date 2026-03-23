@@ -1,0 +1,24 @@
+{
+  "fetchedAt": "2026-03-20T05:22:55.767Z",
+  "sources": [
+    {
+      "name": "Current Provincial Electoral Districts of British Columbia",
+      "provider": "Province of British Columbia (DataBC / BC Geographic Warehouse)",
+      "url": "https://delivery.maps.gov.bc.ca/arcgis/rest/services/whse/bcgw_pub_whse_admin_boundaries/MapServer/6/query",
+      "license": "Open Government Licence - British Columbia"
+    },
+    {
+      "name": "Legislative Assembly of British Columbia representatives (OpenNorth Represent API)",
+      "provider": "OpenNorth / Legislative Assembly of BC",
+      "url": "https://represent.opennorth.ca/representatives/bc-legislature/",
+      "license": "See OpenNorth and source_url on each representative"
+    },
+    {
+      "name": "Executive Council and Parliamentary Secretaries of B.C.",
+      "provider": "Province of British Columbia",
+      "url": "https://www2.gov.bc.ca/gov/content/governments/organizational-structure/cabinet/cabinet-ministers",
+      "license": "Open Government Licence - British Columbia"
+    }
+  ],
+  "notes": "Riding boundaries are joined to MLAs by normalized riding name. Minister and parliamentary secretary titles are scraped from the cabinet page and matched to MLAs by name. Update OPENNORTH_TO_ARCGIS_RIDING_KEY if riding names diverge."
+}
